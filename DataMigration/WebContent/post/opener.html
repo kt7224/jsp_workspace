@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function openWin(){
+	//새창을 띄우자~!
+	var url="/post/popup.jsp";
+	var name="pop";
+	var specs="width=400,height=500,resizable=false ";
+	window.open(url,name,specs);
+}
+
+</script>
+
+</head>
+
+<body>
+<form name="form1">
+<input type="button" value="우편번호 검색" onClick="openWin()">
+<input type="text" name="zipcode">
+</form>
+
+</body>
+</html>
